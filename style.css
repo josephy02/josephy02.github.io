@@ -6,11 +6,11 @@
 .section:last-of-type {
     padding-bottom: 4rem;
 }
-    
+
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('Web_Portfolio_Images/port_im1.jpg');
+    background: url('Web_Portfolio_Images/port_im4.jpg');
     background-size:cover;
     position:relative;
     padding: 0;
@@ -46,11 +46,9 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover,
-.fa-linkedin:hover, 
-.fa-twitch:hover {
+
+.fa-linkedin:hover,
+.fa-github:hover {
     color: #fff;
 }
 .fab {
@@ -80,3 +78,22 @@
     background-color: #808080;
     text-align: center;
 }
+
+#contact {
+    text-align: center;
+  }
+
+  #contact .row {
+    justify-content: center;
+  }
+
+  #contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  #contact button {
+    display: block;
+    margin: 0 auto;
+  }
